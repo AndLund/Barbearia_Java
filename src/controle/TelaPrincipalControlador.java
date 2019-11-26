@@ -17,7 +17,7 @@ public class TelaPrincipalControlador {
     private TextField inputSenha;
     
     public void login(ActionEvent event){
-        if(inputUsuario.getText().equals("admin") && inputSenha.getText().equals("admin")){
+        if(inputUsuario.getText().equals("a") && inputSenha.getText().equals("a")){
             lblStatus.setText("Logado com sucesso");
             Barbearia.trocarTela("seg");
         }else{

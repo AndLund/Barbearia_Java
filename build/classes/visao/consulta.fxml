@@ -7,18 +7,24 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controle.ConsultaControlador">
-   <children>
-      <Label layoutX="47.0" layoutY="26.0" text="Barbearia 2 of us">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controle.ConsultaControlador">
+   <bottom>
+      <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+        <items>
+          <Button mnemonicParsing="false" onAction="#editar" text="Editar" />
+            <Button mnemonicParsing="false" onAction="#apagar" text="Apagar" />
+            <Button mnemonicParsing="false" onAction="#voltarSegundaTela" text="Voltar" />
+        </items>
+      </ToolBar>
+   </bottom>
+   <top>
+      <Label text="Barbearia 2 of us - Consulta" BorderPane.alignment="CENTER">
          <font>
             <Font size="24.0" />
          </font>
       </Label>
-      <Label layoutX="110.0" layoutY="66.0" text="Consulta">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Label>
-      <Button layoutX="119.0" layoutY="253.0" mnemonicParsing="false" onAction="#voltarSegundaTela" text="Voltar" />
-   </children>
-</Pane>
+   </top>
+   <center>
+      <ListView fx:id="lvClientes" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

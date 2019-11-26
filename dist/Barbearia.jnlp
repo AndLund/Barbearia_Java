@@ -8,8 +8,9 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="Barbearia.jar" size="7986" download="eager" />
+    <jar href="Barbearia.jar" size="14287" download="eager" />
     <jar href="lib/jfoenix-8.0.8.jar" size="2708772" download="eager" />
+    <jar href="lib/sqlite-jdbc-3.20.0.jar" size="6637012" download="eager" />
   </resources>
   <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Barbearia" >
     <param name="requiredFXVersion" value="8.0+"/>
