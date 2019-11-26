@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controle.SegundaTelaControlador">
+   <children>
+      <Button layoutX="95.0" layoutY="108.0" mnemonicParsing="false" onAction="#cliqueAgendamento" prefHeight="25.0" prefWidth="110.0" text="Agendamento" />
+      <Button layoutX="95.0" layoutY="160.0" mnemonicParsing="false" onAction="#cliqueConsulta" prefWidth="110.0" text="Consulta" />
+      <Label layoutX="47.0" layoutY="39.0" text="Barbearia 2 of us">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="95.0" layoutY="214.0" mnemonicParsing="false" onAction="#cliqueVoltar" prefWidth="110.0" text="Voltar" />
+   </children>
+</Pane>
