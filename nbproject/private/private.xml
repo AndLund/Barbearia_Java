@@ -14,8 +14,11 @@
         <group>
             <file>file:/home/anderson/NetBeansProjects/Barbearia/src/controle/AgendamentoControlador.java</file>
             <file>file:/home/anderson/NetBeansProjects/Barbearia/src/controle/TelaPrincipalControlador.java</file>
+            <file>file:/home/anderson/NetBeansProjects/Barbearia/src/modelo/sqlite/ClienteSQLiteDAO.java</file>
             <file>file:/home/anderson/NetBeansProjects/Barbearia/src/controle/ConsultaControlador.java</file>
+            <file>file:/home/anderson/NetBeansProjects/Barbearia/src/modelo/Cliente.java</file>
             <file>file:/home/anderson/NetBeansProjects/Barbearia/src/principal/Barbearia.java</file>
+            <file>file:/home/anderson/NetBeansProjects/Barbearia/src/modelo/sqlite/SQLiteBase.java</file>
         </group>
     </open-files>
 </project-private>
